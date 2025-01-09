@@ -1,0 +1,32 @@
+{
+    "name": "penguin-jump",
+    "private": true,
+    "version": "1.0.0",
+    "description": "A Doodle Jump style game featuring a jumping penguin, built with Phaser 3",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/penguin-jump"
+    },
+    "keywords": [
+        "phaser",
+        "game",
+        "typescript",
+        "doodle-jump",
+        "penguin"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "phaser": "^3.87.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5",
+        "vite": "^5.3.1"
+    }
+}
