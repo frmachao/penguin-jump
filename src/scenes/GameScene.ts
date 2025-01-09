@@ -207,6 +207,11 @@ export class GameScene extends Scene {
     }
 
     private gameOver() {
+        // 清理火箭模式计时器
+        if (this.rocketBoostTimer) {
+            this.rocketBoostTimer.destroy();
+        }
+
         // 停止背景音乐
         if (this.bgm) {
             this.bgm.stop();

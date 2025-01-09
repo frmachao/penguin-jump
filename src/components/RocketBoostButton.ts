@@ -1,14 +1,11 @@
 import { Scene } from 'phaser';
 
 export class RocketBoostButton {
-    private scene: Scene;
     private button: Phaser.GameObjects.Text;
     private description: Phaser.GameObjects.Text;
     private hasRocketBoost: boolean = false;
 
     constructor(scene: Scene, x: number, y: number) {
-        this.scene = scene;
-        
         // 创建按钮
         this.button = scene.add.text(x, y, 'Check Rocket Boost', {
             fontSize: '24px',
