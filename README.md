@@ -4,6 +4,8 @@ A Doodle Jump style game featuring a cute jumping penguin, built with Phaser 3 a
 
 ![Penguin Jump Screenshot](screenshot.png)
 
+Play it here: [Penguin Jump](https://penguin-jump-five.vercel.app/)
+
 ## Game Features
 
 - Endless vertical jumping gameplay
