@@ -84,6 +84,13 @@ export class GameScene extends Scene {
             if (this.bgm) {
                 this.bgm.stop();
             }
+            // 清理火箭模式计时器
+            if (this.rocketBoostTimer) {
+                this.rocketBoostTimer.destroy();
+            }
+            // 重置分数
+            this.score = 0;
+            // 重启场景
             this.scene.restart();
         });
 
